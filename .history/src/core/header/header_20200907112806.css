@@ -1,0 +1,15 @@
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header li {
+    padding: 0 8px;
+}
+
+a {
+    text-decoration : none;
+    font-weight: 400;
+    line-height: 1.5;
+}

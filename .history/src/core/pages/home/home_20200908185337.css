@@ -1,0 +1,14 @@
+img {
+    height: 15rem;
+    /* width: 15rem; */
+    padding: 0.7rem;
+    border: 5px dashed rgb(76, 167, 188);
+}
+
+button {
+    color: white;
+    display: block;
+    background: rgb(76, 167, 188);
+    cursor: pointer;
+    border: none;
+}
