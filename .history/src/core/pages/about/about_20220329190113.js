@@ -5,7 +5,7 @@ function About () {
     return (
         <div className="about">
             <h2>EDUCATIONAL</h2>
-            <h3>Graduation: Swami Premanand Mahavidyalaya - Mukerian</h3>
+            <h3>Graduat: Swami Premanand Mahavidyalaya - Mukerian</h3>
             <p>(2018 - 2021)</p>
             <p>Course:Bachelor of Computer Applications</p>
             <h3>Secondary: Swami Premanand Sen. Sec. School - Mukerian</h3>
