@@ -8,7 +8,7 @@ function Home() {
         <div className="flex1">
             <div className="flex">
                 <section className="section-img">
-                    <img src={require("../../../assets/images/portfolio.jpg")} alt="Not Found" />
+                    <img src={require("../../../assets/images/portfolio.jpeg")} alt="Not Found" />
                     <button>Contact Me</button>
                 </section>
                 <section className="info">
