@@ -25,9 +25,8 @@ class App extends React.Component {
           <Route to exact path="/Skills"><Skills /></Route>
           <Route to exact path="/About"><About /></Route>
           </div>
-          
         </Router>
-
+        
       </div>
     );
   }
