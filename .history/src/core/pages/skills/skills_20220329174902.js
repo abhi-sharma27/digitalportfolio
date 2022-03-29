@@ -24,14 +24,6 @@ function Skills() {
                     <p className="skill-heading">JavaScript</p>
                 </div>
                 <div className="icon">
-                   <RiReactjsFill className="size"/>
-                   <p className="skill-heading">ReactJs</p>
-                </div>
-                <div className="icon">
-                   <RiReactjsFill className="size"/>
-                   <p className="skill-heading">ReactJs</p>
-                </div>
-                <div className="icon">
                     <DiGit className="size"/>  
                     <p className="skill-heading">Git</p>
                 </div>
@@ -39,6 +31,8 @@ function Skills() {
                     <DiPhotoshop className="size"/>
                     <p className="skill-heading">Photoshop</p>
                 </div>                
+                
+                
             </div>
         </section>
     );

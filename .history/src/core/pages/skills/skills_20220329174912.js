@@ -39,6 +39,8 @@ function Skills() {
                     <DiPhotoshop className="size"/>
                     <p className="skill-heading">Photoshop</p>
                 </div>                
+                
+                
             </div>
         </section>
     );
