@@ -11,9 +11,7 @@ function About () {
             <h3>Secondary: Swami Premanand Sen. Sec. School - Mukerian</h3>
             <p>(2016-2018)</p>
             <p>Group: Non-Medical</p>
-            <h3>Matriculation: Sri Guru Gobind Singh Sen. Sec. School - Mukerian</h3>
-            <p>(2018)</p>
-            <p>CBSE</p>
+            
         </div>
     );
 }
