@@ -13,7 +13,7 @@ function Home() {
                 </section>
                 <section className="info">
                     <h1>HI, I'M <div className="adjustPadding">ABHI SHARMA</div></h1>
-                    <p className="h3">Front End Web Developer</p>
+                    <p className="h3">Front Web Developer</p>
                     <a href="#" className="iconHeading "><FaGithub className="homeIcons"/> <p className="margin-0">abhi-sharma27</p></a>
                     <a href="#" className="iconHeading"><MdMail className="homeIcons"/> <p className="margin-0">abhipurika@gmail.com</p> </a>
                 </section>
