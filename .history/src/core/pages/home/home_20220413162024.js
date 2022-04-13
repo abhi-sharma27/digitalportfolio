@@ -3,11 +3,13 @@ import "./home.css";
 import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
-function showAlert () {
-  alert('Contact me is disabled at this moment');
-}
+
 
 function Home() {
+
+  function showAlert () {
+    alert('Contact me is disabled at this moment');
+  }
 
     return (
         <div className="flex1">

@@ -3,18 +3,13 @@ import "./home.css";
 import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
-function showAlert () {
-  alert('Contact me is disabled at this moment');
-}
-
 function Home() {
-
     return (
         <div className="flex1">
             <div className="flex">
                 <section className="section-img">
                     <img src={require("../../../assets/images/portfolio.jpg")} alt="Not Found" />
-                    <button onClick={showAlert()}>Contact Me</button>
+                    <button onClick={()=> { alert('Contact Me is disabled at this moment');}}>Contact Me</button>
                 </section>
                 <section className="info">
                     <h1>HI, I'M <div className="adjustPadding">ABHI SHARMA</div></h1>

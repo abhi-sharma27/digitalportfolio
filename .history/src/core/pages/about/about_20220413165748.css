@@ -2,14 +2,10 @@
     margin: 100px 250px 10px 310px;
 }
 
-.about h2 {
+.color {
   color: rgb(13, 56, 67);
 }
 
 .about h3 {
   color: rgb(55, 93, 112);
-}
-
-.about p {
-  color: rgb(13, 56, 67);
 }
