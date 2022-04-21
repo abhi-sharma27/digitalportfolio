@@ -29,9 +29,6 @@ class Home extends React.Component {
                     <a href="#" className="iconHeading"><MdMail className="homeIcons"/> <p className="margin-0">abhipurika@gmail.com</p> </a>
                 </section>
             </div>
-
-           
-
         </div>
     );
   }

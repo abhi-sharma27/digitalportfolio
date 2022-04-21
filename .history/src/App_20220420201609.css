@@ -48,7 +48,7 @@
   transform-style: preserve-3d;
   position: absolute;
   top: calc(100% - 1px);
-  background: #17a2b8;
+  background: #CFE2F0;
   transform: rotateX(-5deg);
   animation: flip 3s ease-in-out infinite;
 }

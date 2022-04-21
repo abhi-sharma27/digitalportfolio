@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import "./home.scss";
 import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 

@@ -40,6 +40,7 @@
   top: 0;
   left: 131.25px;
   z-index: 2;
+  /* color: black; */
 }
 .wind-paper div {
   height: 19.25px;
@@ -48,7 +49,7 @@
   transform-style: preserve-3d;
   position: absolute;
   top: calc(100% - 1px);
-  background: #17a2b8;
+  background: #fff;
   transform: rotateX(-5deg);
   animation: flip 3s ease-in-out infinite;
 }

@@ -14,10 +14,11 @@ class App extends React.Component {
     console.log(props);
   }
 
-  render() {
+  render () {
     return (
-      <section>
+      <section> 
         <div className='wind-paper'>
+        <div>
           <div>
             <div>
               <div>
@@ -27,33 +28,31 @@ class App extends React.Component {
                       <div>
                         <div>
                           <div>
-                            <div>
-
-                            </div>
+                          
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>  
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-        <section>
-          <Router>
-            <Header />
-            <section className="padding-top">
-              <Route to exact path="/digitalportfolio"><Home /></Route>
-              <Route to exact path="/Skills"><Skills /></Route>
-              <Route to exact path="/About"><About /></Route>
-            </section>
-
-          </Router>
+        </div>
+       
+       
+       <section>
+        <Router>
+          <Header />
+          <section className="padding-top">
+          <Route to exact path="/digitalportfolio"><Home /></Route>
+          <Route to exact path="/Skills"><Skills /></Route>
+          <Route to exact path="/About"><About /></Route>
+          </section>
+          
+        </Router>
         </section>
-
       </section>
     );
   }

@@ -10,8 +10,9 @@ class Home extends React.Component {
     console.log("Home Page releod");
   }
 
-  showAlert () {
-    alert('Contact me is disabled at this Moment');
+  function showAlert () {
+    alert('Not working');
+    console.log('showAlert Worked');
   }
   
   render() {
@@ -29,9 +30,6 @@ class Home extends React.Component {
                     <a href="#" className="iconHeading"><MdMail className="homeIcons"/> <p className="margin-0">abhipurika@gmail.com</p> </a>
                 </section>
             </div>
-
-           
-
         </div>
     );
   }

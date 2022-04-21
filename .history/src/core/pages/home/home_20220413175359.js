@@ -3,24 +3,17 @@ import "./home.css";
 import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
+function showAlert () {
+  alert('Contact me is disabled at this moment');
+}
 class Home extends React.Component {
-  
-  constructor (props) {
-    super(props);
-    console.log("Home Page releod");
-  }
-
-  showAlert () {
-    alert('Contact me is disabled at this Moment');
-  }
-  
   render() {
     return(
       <div className="flex1">
             <div className="flex">
                 <section className="section-img">
                     <img src={require("../../../assets/images/portfolio.jpg")} alt="Not Found" />
-                    <button onClick={this.showAlert}>Contact Me</button>
+                    <button onClick={showAlert()}>Contact Me</button>
                 </section>
                 <section className="info">
                     <h1>HI, I'M <div className="adjustPadding">ABHI SHARMA</div></h1>
@@ -29,9 +22,6 @@ class Home extends React.Component {
                     <a href="#" className="iconHeading"><MdMail className="homeIcons"/> <p className="margin-0">abhipurika@gmail.com</p> </a>
                 </section>
             </div>
-
-           
-
         </div>
     );
   }

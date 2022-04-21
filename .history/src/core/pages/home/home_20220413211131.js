@@ -10,8 +10,9 @@ class Home extends React.Component {
     console.log("Home Page releod");
   }
 
-  showAlert () {
-    alert('Contact me is disabled at this Moment');
+  function showAlert() {
+    alert('Not working');
+    console.log('showAlert Worked');
   }
   
   render() {
@@ -20,7 +21,7 @@ class Home extends React.Component {
             <div className="flex">
                 <section className="section-img">
                     <img src={require("../../../assets/images/portfolio.jpg")} alt="Not Found" />
-                    <button onClick={this.showAlert}>Contact Me</button>
+                    <button onClick={showAlert}>Contact Me</button>
                 </section>
                 <section className="info">
                     <h1>HI, I'M <div className="adjustPadding">ABHI SHARMA</div></h1>
@@ -29,9 +30,6 @@ class Home extends React.Component {
                     <a href="#" className="iconHeading"><MdMail className="homeIcons"/> <p className="margin-0">abhipurika@gmail.com</p> </a>
                 </section>
             </div>
-
-           
-
         </div>
     );
   }

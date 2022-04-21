@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+// import "./home.scss";
 import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
@@ -16,7 +17,7 @@ class Home extends React.Component {
   
   render() {
     return(
-      <div className="flex1">
+      <div className="flex1 wind-paper">
             <div className="flex">
                 <section className="section-img">
                     <img src={require("../../../assets/images/portfolio.jpg")} alt="Not Found" />
