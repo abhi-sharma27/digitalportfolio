@@ -40,8 +40,8 @@
   height: 50px;
   width: 50px;
   border-radius: 50px;
-  box-shadow: 2px 2px 4px grey;
   transition: transform .2s;
+  box-shadow: 10px 10px;
 }
 .telegram:hover {
   cursor: pointer;

@@ -18,7 +18,6 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        
         <div className='wind-paper'>
           <div>
             <div>
@@ -57,7 +56,7 @@ class App extends React.Component {
         </section>
 
 
-        <a href='https://t.me/abhi_sharma27' title='Telegram'>
+        <a href='https://t.me/abhi_sharma27'>
           <img src={tele} alt="loading..." className='telegram' />
         </a>
 

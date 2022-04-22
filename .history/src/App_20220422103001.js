@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import tele from './assets/images/telegram-m.png';
+import tele from './assets/images/telegram.gif';
 import logo from './logo.svg';
 import './App.css';
 import Header from "./core/header/header";
@@ -18,7 +18,6 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        
         <div className='wind-paper'>
           <div>
             <div>
@@ -56,10 +55,9 @@ class App extends React.Component {
           </Router>
         </section>
 
+        <img src={tele} alt="loading..." />
 
-        <a href='https://t.me/abhi_sharma27' title='Telegram'>
-          <img src={tele} alt="loading..." className='telegram' />
-        </a>
+        
 
       </section>
     );

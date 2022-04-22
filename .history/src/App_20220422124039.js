@@ -18,7 +18,6 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        
         <div className='wind-paper'>
           <div>
             <div>

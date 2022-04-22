@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import tele from './assets/images/telegram-m.png';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 import Header from "./core/header/header";
@@ -18,7 +17,6 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        
         <div className='wind-paper'>
           <div>
             <div>
@@ -56,10 +54,11 @@ class App extends React.Component {
           </Router>
         </section>
 
+        <section>
+        <script type="text/javascript">(function() {var script=document.createElement("script");script.type="text/javascript";script.async =true;script.src="//telegram.im/widget-button/index.php?id=@abhi_sharma27";document.getElementsByTagName("head")[0].appendChild(script);})();</script>
+<a href="https://telegram.im/@abhi_sharma27" target="_blank" class="telegramim_button telegramim_shadow" style="font-size:26px;width:50px;background:#27a5e7;box-shadow:1px 1px 5px #27a5e7;color:#FFFFFF;border-radius:50px;" title=""><i></i></a>
 
-        <a href='https://t.me/abhi_sharma27' title='Telegram'>
-          <img src={tele} alt="loading..." className='telegram' />
-        </a>
+        </section>
 
       </section>
     );
