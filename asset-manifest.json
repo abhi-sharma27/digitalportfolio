@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/digitalportfolio/static/css/main.3f6feafe.chunk.css",
-    "main.js": "/digitalportfolio/static/js/main.4b46515a.chunk.js",
-    "main.js.map": "/digitalportfolio/static/js/main.4b46515a.chunk.js.map",
+    "main.css": "/digitalportfolio/static/css/main.9d800d72.chunk.css",
+    "main.js": "/digitalportfolio/static/js/main.89229c2a.chunk.js",
+    "main.js.map": "/digitalportfolio/static/js/main.89229c2a.chunk.js.map",
     "runtime-main.js": "/digitalportfolio/static/js/runtime-main.7ef3776f.js",
     "runtime-main.js.map": "/digitalportfolio/static/js/runtime-main.7ef3776f.js.map",
-    "static/js/2.d283c003.chunk.js": "/digitalportfolio/static/js/2.d283c003.chunk.js",
-    "static/js/2.d283c003.chunk.js.map": "/digitalportfolio/static/js/2.d283c003.chunk.js.map",
+    "static/js/2.ab2dd62c.chunk.js": "/digitalportfolio/static/js/2.ab2dd62c.chunk.js",
+    "static/js/2.ab2dd62c.chunk.js.map": "/digitalportfolio/static/js/2.ab2dd62c.chunk.js.map",
     "index.html": "/digitalportfolio/index.html",
-    "precache-manifest.fa171306622e06f35e420f5723a8d407.js": "/digitalportfolio/precache-manifest.fa171306622e06f35e420f5723a8d407.js",
+    "precache-manifest.ddf0a2a1e68c0eb70f3e556a978bd00c.js": "/digitalportfolio/precache-manifest.ddf0a2a1e68c0eb70f3e556a978bd00c.js",
     "service-worker.js": "/digitalportfolio/service-worker.js",
-    "static/css/main.3f6feafe.chunk.css.map": "/digitalportfolio/static/css/main.3f6feafe.chunk.css.map",
-    "static/js/2.d283c003.chunk.js.LICENSE.txt": "/digitalportfolio/static/js/2.d283c003.chunk.js.LICENSE.txt",
+    "static/css/main.9d800d72.chunk.css.map": "/digitalportfolio/static/css/main.9d800d72.chunk.css.map",
+    "static/js/2.ab2dd62c.chunk.js.LICENSE.txt": "/digitalportfolio/static/js/2.ab2dd62c.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/digitalportfolio/static/media/logo.5d5d9eef.svg",
-    "static/media/portfolio.jpg": "/digitalportfolio/static/media/portfolio.610e73b3.jpg"
+    "static/media/portfolio.jpg": "/digitalportfolio/static/media/portfolio.610e73b3.jpg",
+    "static/media/telegram-m.png": "/digitalportfolio/static/media/telegram-m.aee51ff6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7ef3776f.js",
-    "static/js/2.d283c003.chunk.js",
-    "static/css/main.3f6feafe.chunk.css",
-    "static/js/main.4b46515a.chunk.js"
+    "static/js/2.ab2dd62c.chunk.js",
+    "static/css/main.9d800d72.chunk.css",
+    "static/js/main.89229c2a.chunk.js"
   ]
 }
